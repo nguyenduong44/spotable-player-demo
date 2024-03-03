@@ -1,0 +1,14 @@
+*
+{
+    box-sizing: inherit;
+    margin:0;
+    padding:0;
+}
+
+html
+{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Mukta', sans-serif;
+    box-sizing: border-box;
+}
