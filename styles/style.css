@@ -249,6 +249,7 @@ song:hover
   border-bottom: 1px solid #dedede;
   position: absolute;
   top: 112%;
+  left: 0;
   opacity: 0.2;
 }
 

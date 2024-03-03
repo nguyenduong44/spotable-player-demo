@@ -77,6 +77,12 @@ const app = {
       path: './assets/music/stay.mp3',
       image: './assets/img/laroi-kid.jpg'
     },
+    {
+      name: 'Thủy Triều',
+      singer: 'Quang Hùng',
+      path: './assets/music/thuy-trieu.mp3',
+      image: './assets/img/quang-hung.jpg'
+    }
   ],
   render: function()
   {
@@ -188,7 +194,6 @@ const app = {
       dashboardThumb.style.width = newThumbWidth > 0 ? newThumbWidth + 'px': 0;
       dashboardThumb.style.opacity = newThumbWidth / dashboardThumbWidth;
       
-      console.log(newMarginTop)
       // playlistMargin.style.marginTop = newMarginTop < 230 ? '192px' : marginTopOld + 'px';
 
       if(newMarginTop < 230)
@@ -335,7 +340,6 @@ const app = {
     setTimeout(() => {
       const activeSong = $('.song.active');
       
-
       activeSong.scrollIntoView(
         {
           behavior:'smooth',
